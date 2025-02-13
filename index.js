@@ -46,7 +46,7 @@ app.post("/api/post-gadget", async (req, res) => {
 });
 
 //GET API
-app.get("/api/get-products", async (req, res) => {
+app.get("/api/get-gadgets", async (req, res) => {
   try {
     const gadgets = await Gadget.find();
 
